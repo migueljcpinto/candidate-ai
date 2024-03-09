@@ -39,8 +39,7 @@ export const Instructions = () => {
               ))}
             </div>
           </div>
-
-          <div className="flex justify-center md:justify-end">
+          <div className="flex flex-col justify-center md:justify-end">
             <Image
               alt="Candidato"
               src="/o-candidato.jpeg"
@@ -48,6 +47,11 @@ export const Instructions = () => {
               height={540}
               className="border rounded-xl"
             />
+            <p className="text-xs text-center text-muted-foreground">
+              Os Chats podem apresentar informações incorretas, inclusive sobre
+              pessoas, factos ou ideais políticos, por isso, confirma sempre as
+              respetivas respostas.
+            </p>
           </div>
         </div>
       </div>
