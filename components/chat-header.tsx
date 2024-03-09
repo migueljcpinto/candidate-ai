@@ -70,7 +70,7 @@ export const ChatHeader = ({ candidate }: ChatHeaderProps) => {
             </div>
           </div>
           <p className="text-xs text-muted-foreground">
-            Criado por {candidate.userName}
+            Este chatbot é fictício!
           </p>
         </div>
       </div>

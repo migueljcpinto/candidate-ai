@@ -33,7 +33,7 @@ export const SearchInput = () => {
         url: window.location.href,
         query,
       },
-      { skipEmptyString: true, skipNull: true }
+      { skipNull: true, skipEmptyString: true }
     );
 
     router.push(url);
@@ -51,5 +51,3 @@ export const SearchInput = () => {
     </div>
   );
 };
-
-export default SearchInput;

@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Home, Plus, Settings } from "lucide-react";
+import { BotMessageSquare, Home, Info } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 
@@ -13,22 +13,21 @@ const Sidebar = () => {
     {
       icon: Home,
       href: "/",
-      label: "Home",
+      label: "Início",
       pro: false,
     },
-    /*     {
-      icon: Plus,
-      href: "/candidate/new",
-      label: "Create",
+    {
+      icon: Info,
+      href: "/information",
+      label: "Informação",
       pro: true,
     },
     {
-      icon: Settings,
-      href: "/settings",
-      label: "Settings",
+      icon: BotMessageSquare,
+      href: "/candidates-list",
+      label: "Chat",
       pro: false,
     },
- */
   ];
 
   const onNavigate = (url: string, pro: boolean) => {
