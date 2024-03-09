@@ -21,7 +21,7 @@ export const routes = [
   {
     icon: BotMessageSquare,
     href: "/candidates-list",
-    label: "Chat",
+    label: "Conversar",
     pro: false,
   },
 ];

@@ -22,7 +22,7 @@ export const Instructions = () => {
             </h1>
             <p className="text-sm md:text-2xl md:text-left font-light text-gray-600 md:leading-10">
               Fica a conhecer as propostas e opiniões dos candidatos às eleições
-              de 2024
+              de 2024, conversando com eles.
             </p>
 
             <div className="flex flex-col justify-center items-center gap-5  pt-10">
