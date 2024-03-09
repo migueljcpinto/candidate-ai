@@ -4,7 +4,7 @@ export const Information = () => {
       {/*     className="  cursor-pointer hover:opacity-75 transition"
        */}
       <h1 className="text-2xl font-bold text-center">Informações</h1>
-      <div className=" prose text-gray-700 space-y-10 p-5 ">
+      <div className=" prose text-muted-foreground space-y-10 p-5 ">
         <p className="bg-primary/10 rounded-xl border-2 p-5">
           O AI Candidato é um projecto de ficção que utiliza inteligência
           artificial para criar Chatbots que simulam conversas dos candidatos

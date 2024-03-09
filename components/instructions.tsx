@@ -17,10 +17,10 @@ export const Instructions = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-4 lg:px-8 h-screen">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:gap-10 py-4 md:py-6 h-screen">
           <div className="space-y-2 md:space-y-14 text-center">
-            <h1 className="text-2xl md:text-left  font-bold text-gray-900 md:text-3xl">
+            <h1 className="text-2xl md:text-left  font-boldtext-muted-foreground md:text-3xl">
               Conversa com os Candidatos
             </h1>
-            <p className="text-sm md:text-2xl md:text-left font-light text-gray-600 md:leading-10">
+            <p className="text-sm md:text-2xl md:text-left font-light text-muted-foreground  md:leading-10">
               Fica a conhecer as propostas e opiniões dos candidatos às eleições
               de 2024, conversando com eles.
             </p>
@@ -30,7 +30,7 @@ export const Instructions = () => {
                 <div
                   onClick={() => onNavigate(route.href, route.pro)}
                   key={route.href}
-                  className="flex text-slate-900 p-3 w-full justify-center text-lg font-medium cursor-pointer hover:text-primary hover:bg-primary/10 border border-slate-700 rounded-lg transition"
+                  className="flex text-muted-foreground p-3 w-full justify-center text-lg font-medium cursor-pointer hover:text-primary hover:bg-primary/10 border border-slate-700 rounded-lg transition"
                 >
                   <div className="flex flex-col gap-y-2 items-center flex-1">
                     {route.label}
