@@ -64,10 +64,11 @@ export const ChatHeader = ({ candidate }: ChatHeaderProps) => {
         <div className="flex flex-col gap-y-1">
           <div className="flex items-center gap-x-2">
             <p className="font-bold">{candidate.name}</p>
-            <div className="flex items-center text-xs text-muted-foreground">
+            {/*             <div className="flex items-center text-xs text-muted-foreground">
               <MessagesSquare className="w-3 h-3 mr-1" />
               {candidate._count.messages}
             </div>
+ */}{" "}
           </div>
           <p className="text-xs text-muted-foreground">
             Este chatbot é fictício!

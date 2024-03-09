@@ -5,30 +5,30 @@ import { BotMessageSquare, Home, Info } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 
+export const routes = [
+  {
+    icon: Home,
+    href: "/",
+    label: "Início",
+    pro: false,
+  },
+  {
+    icon: Info,
+    href: "/information",
+    label: "Informação",
+    pro: true,
+  },
+  {
+    icon: BotMessageSquare,
+    href: "/candidates-list",
+    label: "Chat",
+    pro: false,
+  },
+];
+
 const Sidebar = () => {
   const pathname = usePathname();
   const router = useRouter();
-
-  const routes = [
-    {
-      icon: Home,
-      href: "/",
-      label: "Início",
-      pro: false,
-    },
-    {
-      icon: Info,
-      href: "/information",
-      label: "Informação",
-      pro: true,
-    },
-    {
-      icon: BotMessageSquare,
-      href: "/candidates-list",
-      label: "Chat",
-      pro: false,
-    },
-  ];
 
   const onNavigate = (url: string, pro: boolean) => {
     return router.push(url);
