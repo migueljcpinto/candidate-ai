@@ -1,5 +1,6 @@
 import { Candidates } from "@/app/(root)/(routes)/candidates-list/components/candidates";
 import { SearchInput } from "@/app/(root)/(routes)/candidates-list/components/search-input";
+import VideoDemo from "@/components/video-demo";
 import prismadb from "@/lib/prismadb";
 import React from "react";
 
@@ -34,9 +35,10 @@ const RootPage = async ({ searchParams }: RootPageProps) => {
 
   return (
     <div className="h-full p-4 space-y-2">
-      <SearchInput />
+      <VideoDemo />
+      {/* <SearchInput /> */}
       {/*       <Categories data={categories} /> */}
-      <Candidates data={data} />
+      {/* <Candidates data={data} /> */}
     </div>
   );
 };
